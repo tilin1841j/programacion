@@ -36,6 +36,11 @@ print(miArreglo.ndim)
 miArreglo.reshape((2,10))
 
 print(miArreglo)
+ # utilizamnos linspace 
+ 
+miArreglo= np.linspace(20,10,10)
+miArreglo=miArreglo.reshape(10,10)
+print(miArreglo.ndim)
 
 
 
